@@ -55,7 +55,7 @@ export const Transition = () => {
             <br />
             <br />
             <button type="button" onClick={() => setIsShowList(!isShowList)}>表示/非表示</button>
-            {isShowList && <TaskList taskList={taskList} />}s
+            {isShowList && <TaskList taskList={taskList} />}
         </div>
     );
 };
